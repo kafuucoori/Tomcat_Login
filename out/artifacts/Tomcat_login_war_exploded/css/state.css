@@ -1,0 +1,27 @@
+body {
+    background-color: #e6e4c0;
+}
+
+.state-box {
+    /* 创建一个宽400高500的的区域 */
+    width: 500px;
+    height: 500px;
+    /* 让区域居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+.state {
+    /* 创建一个宽400高150的无边框区域 */
+    width: 500px;
+    height: 250px;
+    margin: 0 auto 0 auto;
+    /* 设置区域内字体居中大小和颜色 */
+    font-size: 50px;
+    text-align: center;
+    color: rgb(245, 79, 81);
+}

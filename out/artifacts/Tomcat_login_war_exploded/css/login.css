@@ -1,0 +1,107 @@
+body {
+    background-color: #e6d7d2;
+}
+
+.login-box {
+    /* 创建一个宽400高500的的区域 */
+    width: 400px;
+    height: 500px;
+    /* 让区域居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+.inner-head {
+    /* 创建一个宽400高150的无边框区域 */
+    width: 400px;
+    height: 150px;
+    margin: 0 auto 0 auto;
+    /* 设置区域内字体居中大小和颜色 */
+    font-size: 30px;
+    text-align: center;
+    color: rgb(245, 27, 132);
+}
+
+.inner-sign {
+    /* 创建一个宽400高300的带边框区域 */
+    width: 400px;
+    height: 300px;
+    /* 设置内边距为20 */
+    padding: 20px;
+    /* 设置字体居中 */
+    text-align: center;
+    /* 创建1px粗的圆角边框 */
+    border: 1px solid rgb(94, 92, 233);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input {
+    /* 创建一个宽250高43的无边框无边界区域 */
+    width: 250px;
+    height: 43px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    /* 设置为块级元素 */
+    display: block;
+    /* 设置内边距 */
+    padding: 0 15px;
+}
+
+.input-text {
+    /* 设置外边距 */
+    margin: 5px auto;
+    /* 设置圆角框 */
+    border-radius: 16px;
+}
+
+.input-text:hover {
+    /* 设置框变换 */
+    transition: 0.5s;
+    border-radius: 4px;
+    border: 0.5px solid rgb(76, 76, 233);
+}
+
+.input-btn {
+    color: #000000;
+    /* 设置鼠标指针样式 */
+    cursor: pointer;
+    /* 设置外边距 */
+    margin: 30px auto 20px;
+    /* 设置圆角框 */
+    border-radius: 44px;
+    background-color: rgba(84, 175, 249, 0.8);
+}
+
+.input-btn:hover {
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+    /* 设置圆角框 */
+    border-radius: 4px;
+    background-color: rgba(10, 138, 243, 0.8);
+}
+
+a {
+    /* 设置无文本修饰 */
+    text-decoration: none;
+    color: rgb(92, 61, 112);
+    font-size: 14px;
+    padding: 5px;
+    transition: 0.8s;
+    /* 设置为块级元素 */
+    display: block;
+}
+
+a:hover {
+    color: #FFF;
+    background: rgba(170, 170, 170, 0.3);
+    border-radius: 8px;
+    /* 设置鼠标指针样式 */
+    cursor: pointer;
+}

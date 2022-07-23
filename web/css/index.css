@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+.index-box {
+    /* 创建一个宽400高500的的区域 */
+    width: 400px;
+    height: 500px;
+    /* 让区域居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+.inner-head {
+    /* 创建一个宽400高150的无边框区域 */
+    width: 400px;
+    height: 150px;
+    margin: 0px auto 100px auto;
+    /* 设置区域内字体居中大小和颜色 */
+    font-size: 20px;
+    text-align: center;
+    color: salmon;
+}
+
+.inner-btn{
+    border: none;
+    font-size: 20px;
+    margin: 5px 100px;
+    padding: 25px 60px;
+    transition-duration: 0.4s;
+    /* 设置光标样式 */
+    cursor: pointer;
+    background-color: white;
+    color: #008CBA;
+    /* 设置边框粗细和颜色 */
+    border: 2px solid #008CBA;
+}
+
+.inner-btn:hover {
+    color: white;
+    background-color: #008CBA;
+}

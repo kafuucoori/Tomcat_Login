@@ -1,0 +1,140 @@
+body {
+    background-color: #cbcae6;
+}
+
+.register-box {
+    /* 创建一个宽400高500的的区域 */
+    width: 400px;
+    height: 650px;
+    /* 让区域居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+.inner-head {
+    /* 创建一个宽400高150的无边框区域 */
+    width: 400px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    /* 设置区域内字体居中大小和颜色 */
+    font-size: 30px;
+    text-align: center;
+    color: rgb(82, 164, 245);
+}
+
+.inner-sign {
+    /* 创建一个宽400高300的带边框区域 */
+    width: 400px;
+    height: 475px;
+    /* 设置内边距为20 */
+    padding: 20px;
+    /* 设置字体 */
+    font-size: 20px;
+    text-align: center;
+    color: rgb(245, 155, 17);
+    /* 创建1px粗的圆角边框 */
+    border: 1px solid rgb(94, 92, 233);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input {
+    /* 创建一个宽250高43的无边框无边界区域 */
+    width: 250px;
+    height: 43px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    /* 设置为块级元素 */
+    display: block;
+    /* 设置内边距 */
+    padding: 0 15px;
+}
+
+.input-text {
+    /* 设置外边距 */
+    margin: 5px auto;
+    /* 设置圆角框 */
+    border-radius: 16px;
+}
+
+.input-text:hover {
+    /* 设置框变换 */
+    transition: 0.5s;
+    border-radius: 4px;
+    border: 0.5px solid rgb(76, 76, 233);
+}
+
+.select {
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    vertical-align: middle;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 196, 248);
+    color: #555;
+    border: 1px solid #aaa;
+    text-shadow: none;
+    border-radius: 8px;
+    transition: box-shadow 0.25s ease;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+
+.select:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.select:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #ccc;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+    z-index: -2;
+}
+
+.select select {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select select:focus {
+    outline: none;
+}
+
+.input-btn {
+    height: 30px;
+    color: #000000;
+    /* 设置鼠标指针样式 */
+    cursor: pointer;
+    /* 设置外边距 */
+    margin: 10px auto 10px auto;
+    /* 设置圆角框 */
+    border-radius: 44px;
+    background-color: rgba(84, 175, 249, 0.8);
+}
+
+.input-btn:hover {
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+    /* 设置圆角框 */
+    border-radius: 4px;
+    background-color: rgba(10, 138, 243, 0.8);
+}

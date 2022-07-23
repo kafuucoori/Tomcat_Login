@@ -1,0 +1,65 @@
+body {
+    background-color: #bbe6e0;
+}
+
+.top-head {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.head-left {
+    float: left;
+    width: 200px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(245, 111, 28);
+}
+
+.head-right {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(125, 138, 245);
+}
+
+.hr-style-seven {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+.hr-style-seven::before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.bottom {
+    padding-top: 5px;
+    color: rgb(125, 138, 245);
+}
+
+.bottom-page {
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.bottom-btn {
+    float: right;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 100px;
+}
